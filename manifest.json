@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Focus",
+  "version": "1.0.0",
+  "description": "Daily time limit for each website, synced across your PCs.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwx5p7Ps3nYkx3H+2Lo3vT+7f6+pyKRtl4DHdkWFrUvu0JntvtDWwmSuJaSbHhFyr/1Mtg9I1q7ZpZAEDaFElVVn/7khVVF7QpjGHBpb5VKy/U9bfWT50wwyLVUFARwI4p9HhObPi/RydQn51a5rPeGEei3a8ZKCzSTLtZeZaqyYZzXYiqAF9IW4KjCL1c3bHtJU+MEIxrxcmTqG5OeflLiu8a/05tkqIt0Y5I9fTGiy6xivBhXjdJcdT3+RYyj2qt/nhVAyXQ3fgZz9EcSWU7YQy6BPLZROx04J9yECiqE0JJWP5Y3S3XqMAlXTxpCfDLX/CVDA5kO3WXlIUkcGHjQIDAQAB",
+  "permissions": ["storage", "tabs", "alarms", "idle"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_popup": "options.html" },
+  "options_ui": { "page": "options.html", "open_in_tab": false }
+}

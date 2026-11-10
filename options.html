@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Simple Focus</title>
+<link rel="stylesheet" href="style.css">
+<p class="eyebrow">Daily limits</p>
+<h1>Simple Focus</h1>
+<hr class="rule">
+<table>
+  <thead><tr><th>Site</th><th>Limit (min/day)</th><th>Left today</th><th></th></tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<form id="add">
+  <label>Site <input id="site" placeholder="youtube.com" required></label>
+  <label>Minutes <input id="min" type="number" min="0" value="30" required></label>
+  <button>Save</button>
+</form>
+<p id="err" role="alert"></p>
+<p class="hint">To change a limit, click Edit, change the minutes, and click Save. Lowering a limit applies at once. Raising a limit or removing a site waits one hour.</p>
+<script type="module" src="options.js"></script>
+</html>

@@ -1,0 +1,15 @@
+# Local planning docs, never committed
+docs/superpowers/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Node and packaging
+node_modules/
+*.zip
+*.crx
+*.pem
