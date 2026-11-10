@@ -7,6 +7,7 @@
 - Simple Focus Chrome extension: a daily time limit for each website, a hard block page, and usage synced across PCs through Chrome Sync.
 - Edit button on each site row: it fills the form with that site and its limit.
 - `.gitignore` for local planning docs, OS/editor files, and packaged builds.
+- Extension icon: a gold hourglass on a black disc with a gold ring, in 16, 32, 48, and 128 px. The source is `icons/icon.svg`.
 
 ### Changed
 
